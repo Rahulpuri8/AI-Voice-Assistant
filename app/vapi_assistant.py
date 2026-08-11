@@ -222,6 +222,7 @@ def get_assistant_config() -> dict:
                 }
             ],
             "temperature": 0.7,
+            "tools": tools,
         },
         "voice": {
             "provider": "11labs",
@@ -234,7 +235,6 @@ def get_assistant_config() -> dict:
             "language": "en",
         },
         "serverUrl": f"{settings.SERVER_URL}/vapi/webhook",
-        "tools": tools,
         "endCallFunctionEnabled": True,
         "endCallMessage": "Thank you for registering with us. Have a wonderful day! Goodbye.",
         "silenceTimeoutSeconds": 30,
