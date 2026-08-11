@@ -4,7 +4,7 @@ A voice-based AI agent accessible via a real phone number that collects U.S. pat
 
 ## Live Demo
 
-- **Phone Number:** `+1 (XXX) XXX-XXXX` _(update after Vapi setup)_
+- **Phone Number:** `+1 (864) 606-0053`
 - **API Base URL:** `https://your-app.railway.app` _(update after deploy)_
 - **API Docs:** `https://your-app.railway.app/docs`
 
